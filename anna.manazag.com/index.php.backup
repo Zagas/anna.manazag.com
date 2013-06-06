@@ -1,0 +1,35 @@
+<?php
+function create_table($data){
+	foreach ($data as $i => $v) {                  
+		$fb_url = $data[$i]['fb_url'];
+		$label = $data[$i]['label'];
+                $pre_fb_fan = $data[$i]['previous_fb_fan'] ;
+		$last_fb_fan = $data[$i]['last_fb_fan'];
+                $diff = $data[$i]['last_fb_fan'] -$data[$i]['previous_fb_fan'] ;
+		print("<tr><td> <A HREF='$fb_url'TARGET='_blank'> $label </A></td><td><b>$last_fb_fan</b></td><td><b>$pre_fb_fan</b></td><td><b>$diff</b></tr></td>");                  
+		}
+	}
+?>
+
+<html>
+	<head>
+		<title>Classifica Giornali a Bestia!!!</title>
+	</head>
+	<body>
+		<table border ="1">
+			<P align = "center">
+			<?php
+			require('current_data.php');
+
+			print("<TABLE ALIGN = 'center'BORDER='3'><tr><td><b>NOME GIORNALE</b></td><td><b>Fb Fan</b><td><b>Pre fb Fan</b></td><td><b>Differenza</b></td></tr></td>\n");
+			create_table($data_source);
+			print("<tfoot><tr><th>Nuovi Giornali in Arrivo</th></tr></tfoot></TABLE>\n");
+ 
+			echo "<br></br>";
+			//echo "A Nicola piace il cazzo!!!!";
+			echo "<P align='center'> <b>Aggiornato a </b> $lastupdate</P>"
+			?>
+			</P>
+		</table>
+	</body>
+</html>
