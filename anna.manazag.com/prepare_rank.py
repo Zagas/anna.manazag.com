@@ -1,3 +1,5 @@
+
+#THIS CLASS PREPARE THE RANK Ready to be used
 #!/usr/bin/python
 
 import MySQLdb

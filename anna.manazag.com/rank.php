@@ -1,13 +1,18 @@
-﻿<?php
+﻿<!--THIS IS THE RANK PAGE DEFAULT SHOWED TO VIDEO
+	http://anna.manazag.com/elezioni2013/rank.php?id=$id&label=$label'
+	- $id rank ID it was taken from Database 
+	- $label this label is associated to the rankID
+-->
+<?php
 
         /*load library*/
   require('library.php');
        require('current_data.php');
-
+//create the table with the data that will be showed with HTML code
 function create_table($data){
   aasort($data,"last_fb_fan");
   foreach ($data as $i => $v) {                  
-    $fb_url = $data[$i]['fb_url'];
+    $fb_url = $data[$i]['fb_url']; 
     $label = $data[$i]['label'];
     $im_url =$data[$i]['im_url'];
     $pre_fb_fan = $data[$i]['previous_fb_fan'] ;
@@ -29,7 +34,7 @@ function create_table($data){
 			$label = $_GET['label'];
                         $id = $_GET['id'];
     echo "<title>$label</title>";
-    echo "<meta http-equiv='refresh' content='3000; url=http://www.tmci.me/elezioni2013/rank.php?id=$id&label=$label'>";
+    echo "<meta http-equiv='refresh' content='3000; url=http://anna.manazag.com/elezioni2013/rank.php?id=$id&label=$label'>";
  ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">

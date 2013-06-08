@@ -1,6 +1,7 @@
+<!--Complete class with Project library-->
 <?php
 
-/*funzione di debug*/
+/*DEBUG function*/
 function echo_data($data) {
 	echo $data."\n";
 }
@@ -32,7 +33,7 @@ function fb_source_read($data_source) {
 	}
 	return $stack;
 }
-
+/*Read from DB the last number fan update and insert into Array ready to be showed*/
 function fb_db_read($data_source) {
 	/*load facebook SDK*/
 	require('facebook.php');
@@ -61,7 +62,7 @@ function fb_db_read($data_source) {
 	}
 	return $stack;
 }
-
+/*Read from DB the old number fo fan and insert into Array*/
 function fb_history_read($data_source) { // WIP
 	$stack = array();
 	foreach ($data_source as $i => $v) {
@@ -83,7 +84,7 @@ function fb_history_read($data_source) { // WIP
 	}
 	return $stack;
 }
-
+/*Sort for Order by the ranking from highest to lowest numeber of fan*/
 function aasort (&$array, $key) {
     $sorter=array();
     $ret=array();
@@ -97,7 +98,7 @@ function aasort (&$array, $key) {
     }
     $array=$ret;
 }
-
+/*This function choose the kind of arrow to show, from the difference between last update fan and the old one*/
 function create_arrow($diff){
   if($diff > 0)
   {$im_diff = "http://www.netanimations.net/Up-02-june.gif";}

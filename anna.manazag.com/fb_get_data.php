@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+<!--this class read from facebook and submit into DB-->
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"  >

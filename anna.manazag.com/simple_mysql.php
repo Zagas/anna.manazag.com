@@ -1,3 +1,4 @@
+<!--Class to use mysql database -->
 <?php
  
  	

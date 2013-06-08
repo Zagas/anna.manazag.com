@@ -1,3 +1,4 @@
+<!-- Home page of this project build with Bootstrap -->
 <html>
 <form>
 <head>
@@ -51,19 +52,19 @@
     <div class="row-fluid">
         <ul class="thumbnails">
   <li class="span4">
-    <a href="http://www.tmci.me/elezioni2013/rank.php?id=c491df451adc37f2e255828d2d267094&label=Elezioni Italiane 2013 Candidati" class="thumbnail">
+    <a href="http://anna.manazag.com/elezioni2013/rank.php?id=c491df451adc37f2e255828d2d267094&label=Elezioni Italiane 2013 Candidati" class="thumbnail">
       <img src="http://upload.wikimedia.org/wikipedia/it/thumb/9/98/Parlamento_Italiano_Giuramento_di_Giovanni_Leone.jpg/400px-Parlamento_Italiano_Giuramento_di_Giovanni_Leone.jpg" alt="">
       <h5>Elezioni Italiane 2013 Candidati</h5>
     </a>
   </li>
   <li class="span4">
-    <a href="http://www.tmci.me/elezioni2013/rank.php?id=60a480ee8ada910acef71964cd4f5a91&label=Elezioni Italiane 2013 Partiti" class="thumbnail">
+    <a href="http://anna.manazag.com/elezioni2013/rank.php?id=60a480ee8ada910acef71964cd4f5a91&label=Elezioni Italiane 2013 Partiti" class="thumbnail">
       <img src="http://www.roccocipriano.it/wordpress/wp-content/uploads/2012/07/tricolore.jpg" alt="">
 <h5>Elezioni Italiane 2013 Partiti</h5>
     </a>
   </li>
   <li class="span4">
-    <a href="http://www.tmci.me/elezioni2013/rank.php?id=eefa7089cb47ca0f647c7e7c613d41be&label=Giornali d'informazione" class="thumbnail">
+    <a href="http://anna.manazag.com/elezioni2013/rank.php?id=eefa7089cb47ca0f647c7e7c613d41be&label=Giornali d'informazione" class="thumbnail">
       <img src="http://nottecriminale.files.wordpress.com/2012/03/giornali_mazzettaweb-400x300.jpg" alt="">
 <h5>Giornali d'informazione</h5>
     </a>

@@ -1,3 +1,4 @@
+<!--PHP CLASS to receive advice on new entities to be included in the ranking -->
 <html>
 <head>
 <title>TMCIEngine</title>

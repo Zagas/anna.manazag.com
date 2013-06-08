@@ -1,3 +1,4 @@
+<!-- this is an obsolete old version class-->
 <?php
 $data_source = array(
 	array("label" => "Corriere della Sera", "fb_url" => "http://www.facebook.com/corrieredellasera"),
